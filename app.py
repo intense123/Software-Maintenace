@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/", methods=["GET"])
 def home():
     return jsonify({
-        "message": "Welcome to Flask App",
+        "message": "Welcome to Flask App with smart and simple endpoints!",
         "status": "running"
     })
 
